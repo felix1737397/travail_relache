@@ -6,7 +6,7 @@ class Joueur :
 public:
 
 protected:
-    Arme m_arme;
-    Armure m_armure;
+ //   Arme m_arme;
+ // Armure m_armure;
 };
 
