@@ -6,6 +6,7 @@ class Ennemi :
 public:
    
 protected:
+    int coefDefense;
     int m_ptsDommage;
 };
 

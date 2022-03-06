@@ -140,13 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Acteur.h" />
+    <ClInclude Include="Assassin.h" />
     <ClInclude Include="Ennemi.h" />
+    <ClInclude Include="Guerrier.h" />
     <ClInclude Include="Joueur.h" />
+    <ClInclude Include="Magicien.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Acteur.cpp" />
+    <ClCompile Include="Assassin.cpp" />
     <ClCompile Include="Ennemi.cpp" />
+    <ClCompile Include="Guerrier.cpp" />
     <ClCompile Include="Joueur.cpp" />
+    <ClCompile Include="Magicien.cpp" />
+    <ClCompile Include="Programme.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
