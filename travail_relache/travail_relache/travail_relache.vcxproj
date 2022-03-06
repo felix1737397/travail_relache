@@ -140,20 +140,30 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Acteur.h" />
+    <ClInclude Include="Adrenaline.h" />
     <ClInclude Include="Assassin.h" />
+    <ClInclude Include="Endurance.h" />
     <ClInclude Include="Ennemi.h" />
+    <ClInclude Include="Equipement.h" />
     <ClInclude Include="Guerrier.h" />
     <ClInclude Include="Joueur.h" />
     <ClInclude Include="Magicien.h" />
+    <ClInclude Include="Mana.h" />
+    <ClInclude Include="Ressource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Acteur.cpp" />
+    <ClCompile Include="Adrenaline.cpp" />
     <ClCompile Include="Assassin.cpp" />
+    <ClCompile Include="Endurance.cpp" />
     <ClCompile Include="Ennemi.cpp" />
+    <ClCompile Include="Equipement.cpp" />
     <ClCompile Include="Guerrier.cpp" />
     <ClCompile Include="Joueur.cpp" />
     <ClCompile Include="Magicien.cpp" />
+    <ClCompile Include="Mana.cpp" />
     <ClCompile Include="Programme.cpp" />
+    <ClCompile Include="Ressource.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

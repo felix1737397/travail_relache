@@ -1,10 +1,35 @@
 ﻿  Acteur.cpp
-C:\Users\vbeli\OneDrive\Desktop\CEGEP\Prog3\travail_relache\travail_relache\travail_relache\Acteur.cpp(49,11): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
-C:\Users\vbeli\OneDrive\Desktop\CEGEP\Prog3\travail_relache\travail_relache\travail_relache\Acteur.cpp(60,16): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Acteur.cpp(49,11): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Acteur.cpp(60,16): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+  Adrenaline.cpp
   Assassin.cpp
+  Endurance.cpp
+  Ennemi.cpp
+  Equipement.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(293,17): error C2259: 'Joueur' : impossible d'instancier une classe abstraite
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Joueur.h(4): message : voir la déclaration de 'Joueur'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(293,17): message : à cause des membres suivants :
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(293,17): message : 'void Joueur::actionUne(void)' : est abstrait
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Joueur.h(9): message : voir la déclaration de 'Joueur::actionUne'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(293,17): message : 'void Joueur::actionDeux(void)' : est abstrait
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Joueur.h(10): message : voir la déclaration de 'Joueur::actionDeux'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(293,17): message : 'void Joueur::actionTrois(void)' : est abstrait
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Joueur.h(11): message : voir la déclaration de 'Joueur::actionTrois'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(293,17): message : 'void Joueur::evoluer(void)' : est abstrait
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Joueur.h(12): message : voir la déclaration de 'Joueur::evoluer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(1776): message : voir la référence à l'instanciation classe modèle 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' en cours de compilation
+          with
+          [
+              _Ty=Joueur,
+              _Alloc=std::allocator<Joueur>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(1771): message : pendant la compilation de la fonction membre classe modèle 'void std::list<Joueur,std::allocator<Joueur>>::_Alloc_sentinel_and_proxy(void)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(805): message : voir la référence à l'instanciation de la fonction modèle 'void std::list<Joueur,std::allocator<Joueur>>::_Alloc_sentinel_and_proxy(void)' en cours de compilation
+C:\Users\Micha\Desktop\travaux p3\travail_relache\travail_relache\travail_relache\Equipement.h(21): message : voir la référence à l'instanciation classe modèle 'std::list<Joueur,std::allocator<Joueur>>' en cours de compilation
   Guerrier.cpp
   Joueur.cpp
   Magicien.cpp
+  Mana.cpp
   Programme.cpp
+  Ressource.cpp
   Génération de code en cours...
-  travail_relache.vcxproj -> C:\Users\vbeli\OneDrive\Desktop\CEGEP\Prog3\travail_relache\travail_relache\Debug\travail_relache.exe
