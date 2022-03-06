@@ -5,6 +5,7 @@ class Acteur
 public:
 	Acteur(std::string);
 	virtual void recevoirDegats() = 0;
+	virtual void attaquer() = 0;
 	std::string getNom() const;
 	int getNiveau() const;
 	void setNiveau(int);
@@ -15,7 +16,7 @@ public:
 	// Inventaire getInventaire();
 	void setInventaire(/*Equipement*/);
 	int getCoefAttaque() const;
-	void setCoefAttaque(int);
+	void setCoefAttaque();
 
 protected:
 	std::string m_nom;

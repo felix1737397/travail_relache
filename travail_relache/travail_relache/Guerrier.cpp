@@ -1,4 +1,5 @@
 #include "Guerrier.h"
+#include "Ennemi.h"
 
 Guerrier::Guerrier(std::string nom) : Joueur{nom}
 {
@@ -25,6 +26,7 @@ void Guerrier::evoluer()
 	m_evoluer = true;
 }
 
-void Guerrier::attaquer(int action)
+void Guerrier::attaquer(int action, Acteur& acteur)
 {
+
 }

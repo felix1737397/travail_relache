@@ -18,3 +18,12 @@ void Assassin::actionTrois()
 void Assassin::recevoirDegats()
 {
 }
+
+void Assassin::evoluer()
+{
+	m_evoluer = true;
+}
+
+void Assassin::attaquer(int, Acteur&)
+{
+}

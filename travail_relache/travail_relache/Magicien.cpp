@@ -18,3 +18,12 @@ void Magicien::actionTrois()
 void Magicien::recevoirDegats()
 {
 }
+
+void Magicien::evoluer()
+{
+	m_evoluer = true;
+}
+
+void Magicien::attaquer(int, Acteur&)
+{
+}

@@ -4,8 +4,13 @@ class Ennemi :
     public Acteur
 {
 public:
-   
-protected:
+    Ennemi(std::string);
+    int getCoefDefense() const;
+    int setCoefDefense();
+    int getPtAttaque() const;
+    int setPtAttaque();
+
+private:
     int coefDefense;
     int m_ptsDommage;
 };

@@ -1,2 +1,10 @@
-﻿  Programme.cpp
+﻿  Acteur.cpp
+C:\Users\vbeli\OneDrive\Desktop\CEGEP\Prog3\travail_relache\travail_relache\travail_relache\Acteur.cpp(49,11): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+C:\Users\vbeli\OneDrive\Desktop\CEGEP\Prog3\travail_relache\travail_relache\travail_relache\Acteur.cpp(60,16): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+  Assassin.cpp
+  Guerrier.cpp
+  Joueur.cpp
+  Magicien.cpp
+  Programme.cpp
+  Génération de code en cours...
   travail_relache.vcxproj -> C:\Users\vbeli\OneDrive\Desktop\CEGEP\Prog3\travail_relache\travail_relache\Debug\travail_relache.exe

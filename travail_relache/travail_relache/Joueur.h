@@ -6,7 +6,6 @@ class Joueur :
 {
 public:
     Joueur(std::string);
-
     virtual void actionUne() = 0;
     virtual void actionDeux() = 0;
     virtual void actionTrois() = 0;
@@ -20,7 +19,7 @@ public:
     void afficherInventaire();
     void equiperArmure();
     void recevoirDegats();
-    void attaquer(int);
+    void attaquer();
 
    
 protected:

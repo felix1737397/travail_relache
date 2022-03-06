@@ -3,13 +3,17 @@
 class Magicien :
     public Joueur
 {
-    public:
+public:
     Magicien(std::string);
     void actionUne();
     void actionDeux();
     void actionTrois();
     void recevoirDegats();
+    void evoluer();
+    void attaquer(int, Acteur&);
 
-    protected:
+private:
+    //   Mana m_ressource;
+
 };
 

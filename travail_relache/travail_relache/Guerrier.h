@@ -10,7 +10,7 @@ class Guerrier :
         void actionTrois();
         void recevoirDegats();
         void evoluer();
-        void attaquer(int);
+        void attaquer(int,Acteur&);
 
     private:
      //   Endurance m_ressource;

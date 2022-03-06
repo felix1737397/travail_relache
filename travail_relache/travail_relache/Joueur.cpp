@@ -27,7 +27,7 @@ void Joueur::recevoirDegats()
 {
 }
 
-void Joueur::attaquer(int)
+void Joueur::attaquer()
 {
 
 }

@@ -3,14 +3,16 @@
 class Assassin :
     public Joueur
 {
-    public:
+public:
     Assassin(std::string);
     void actionUne();
     void actionDeux();
     void actionTrois();
     void recevoirDegats();
+    void evoluer();
+    void attaquer(int, Acteur&);
 
+private:
+    //   Adrenaline m_ressource;
 
-    protected:
 };
-
