@@ -20,9 +20,9 @@ int Acteur::getNiveau() const
 	return m_niveau;
 }
 
-void Acteur::setNiveau(int niveau)
+void Acteur::setNiveau()
 {
-	m_niveau = niveau;
+	m_niveau++;
 }
 
 int Acteur::getExperience() const

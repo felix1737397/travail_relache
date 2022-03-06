@@ -8,7 +8,7 @@ public:
 	virtual void attaquer() = 0;
 	std::string getNom() const;
 	int getNiveau() const;
-	void setNiveau(int);
+	void setNiveau();
 	int getExperience() const;
 	void setExperience(int);
 	int getVie() const;
@@ -16,7 +16,7 @@ public:
 	// Inventaire getInventaire();
 	void setInventaire(/*Equipement*/);
 	int getCoefAttaque() const;
-	void setCoefAttaque();
+	void setCoefAttaque(int);
 
 protected:
 	std::string m_nom;
