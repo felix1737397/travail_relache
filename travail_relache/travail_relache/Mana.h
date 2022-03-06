@@ -1,11 +1,11 @@
 #pragma once
 #include "Ressource.h"
-class Endurance :
+class Mana :
     public Ressource
 {
 public:
-    Endurance();
-    void regeneration(); 
+    Mana();
+    void regeneration();
 private:
 
 };
