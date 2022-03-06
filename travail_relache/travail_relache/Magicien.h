@@ -1,5 +1,6 @@
 #pragma once
 #include "Joueur.h"
+#include "Mana.h"
 class Magicien :
     public Joueur
 {
@@ -13,7 +14,7 @@ public:
     void attaquer(int, Acteur&);
 
 private:
-    //   Mana m_ressource;
+    Mana m_ressource;
 
 };
 

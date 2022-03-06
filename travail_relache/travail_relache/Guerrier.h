@@ -1,5 +1,6 @@
 #pragma once
 #include "Joueur.h"
+#include "Endurance.h"
 class Guerrier :
     public Joueur
 {
@@ -13,7 +14,7 @@ class Guerrier :
         void attaquer(int,Acteur&);
 
     private:
-     //   Endurance m_ressource;
+      Endurance m_ressource;
 
 };
 

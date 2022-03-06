@@ -10,8 +10,6 @@ public:
     virtual void actionDeux() = 0;
     virtual void actionTrois() = 0;
     virtual void evoluer() = 0;
-    // Ressource getRessource();
-    // void setRessource();
     // Arme getArme();
     // void setArme();
     std::map<int, int> getTableExperience();
@@ -24,9 +22,8 @@ public:
    
 protected:
     std::map<int, int> m_tableExperience;
- //   Arme m_arme;
+ // Arme m_arme;
  // Armure m_armure;
-    // Ressource m_ressource;
     bool m_evoluer;
 };
 
