@@ -19,3 +19,12 @@ void Guerrier::actionTrois()
 void Guerrier::recevoirDegats()
 {
 }
+
+void Guerrier::evoluer()
+{
+	m_evoluer = true;
+}
+
+void Guerrier::attaquer(int action)
+{
+}

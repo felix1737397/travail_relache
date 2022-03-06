@@ -9,7 +9,11 @@ class Guerrier :
         void actionDeux();
         void actionTrois();
         void recevoirDegats();
+        void evoluer();
+        void attaquer(int);
 
+    private:
+     //   Endurance m_ressource;
 
 };
 
